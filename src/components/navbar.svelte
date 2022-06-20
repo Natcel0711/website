@@ -33,11 +33,11 @@
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="bg-slate-600 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Algorithms</a>
+              <a href="/" class="hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
 
-              <a href="#" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Data Structures</a>
+              <a href="/DataStructures" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Data Structures</a>
 
-              <a href="#" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+              <a href="/Algorithms" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Algorithms</a>
 
               <a href="#" class="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
             </div>
@@ -63,3 +63,6 @@
       </div>
     </div>
   </nav>
+<script>
+
+</script>
