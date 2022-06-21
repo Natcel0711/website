@@ -1,6 +1,8 @@
 <script>
     import {ModalOpen} from "../stores/ModalStore";
     import {fade} from "svelte/transition"
+    import {name} from "../stores/ModalStore";
+    import {info} from "../stores/ModalStore";
 </script>
 <!-- This example requires Tailwind CSS v2.0+ -->
 <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true" transition:fade>
@@ -38,9 +40,9 @@
                 </svg>
               </div>
               <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">About</h3>
+                <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">{name}</h3>
                 <div class="mt-2">
-                  <p class="text-sm text-gray-500">Content will be displayed here</p>
+                  <p class="text-sm text-gray-500">{info}</p>
                 </div>
               </div>
             </div>
