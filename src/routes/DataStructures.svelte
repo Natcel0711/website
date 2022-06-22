@@ -1,5 +1,4 @@
 <script>
-    import {ModalOpen} from '../stores/ModalStore';
     import {ModalInfo} from "../stores/ModalStore";
 </script>
 <svelte:head>
