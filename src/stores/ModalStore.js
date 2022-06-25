@@ -6,6 +6,7 @@ export const ModalOpen = writable(false);
  * @param {any} Name
  */
 export function ModalInfo(Name){
+    console.log(Name);
     switch(Name){
         case "Array":
             name = "Arrays";
@@ -47,6 +48,55 @@ export function ModalInfo(Name){
             name = "Matrix";
             info = "A matrix represents a collection of numbers arranged in an order of rows and columns. It is necessary to enclose the elements of a matrix in parentheses or brackets.";
             break;
+        case "BubbleSort":
+            name = "Bubble Sort";
+            info = "Bubble sort, sometimes referred to as bubble sort or sinking sort, is a simple sorting algorithm that works by repeatedly swapping adjacent elements if they are in wrong order. The algorithm is named after the way smaller or larger elements float to the top of the list.";
+            break;
+        case "SelectionSort":
+            name = "Selection Sort";
+            info = "Selection sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "InsertionSort":
+            name = "Insertion Sort";
+            info = "Insertion sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "MergeSort":
+            name = "Merge Sort";
+            info = "Merge sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "QuickSort":
+            name = "Quick Sort";
+            info = "Quick sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "HeapSort":
+            name = "Heap Sort";
+            info = "Heap sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "BucketSort":
+            name = "Bucket Sort";
+            info = "Bucket sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "CountingSort":
+            name = "Counting Sort";
+            info = "Counting sort is a sorting algorithm that works by iterating through the list of items and swapping the adjacent items if they are in the wrong order. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "LinearSearch":
+            name = "Linear Search";
+            info = "Linear search is a search algorithm that sequentially checks each element of a list to determine if it contains a specified value. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "JumpSearch":
+            name = "Jump Search";
+            info = "Jump search is a search algorithm that sequentially checks each element of a list to determine if it contains a specified value. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "InterpolationSearch":
+            name = "Interpolation Search";
+            info = "Interpolation search is a search algorithm that sequentially checks each element of a list to determine if it contains a specified value. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+        case "BinarySearch":
+            name = "Binary Search";
+            info = "Binary search is a search algorithm that sequentially checks each element of a list to determine if it contains a specified value. The algorithm is named after the way smaller or larger elements are selected.";
+            break;
+
     }
     ModalOpen.set(true);
 }
