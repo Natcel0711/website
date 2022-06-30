@@ -38,7 +38,7 @@
 
         <a href="#" on:click={() => {ModalInfo("Binary Tree")}}  class="group">
             <div class="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
-              <img src="src\images\DataStrucs\BinaryTree.png" alt="Binary Tree" class="w-full h-full object-center object-cover group-hover:opacity-75">
+              <img src="src\images\DataStrucs\BinaryTree.webp" alt="Binary Tree" class="w-full h-full object-center object-cover group-hover:opacity-75">
             </div>
             <h3 class="mt-4 text-2xl text-gray-700">Binary Tree</h3>
           </a>
