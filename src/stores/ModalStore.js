@@ -2,14 +2,17 @@ import { writable } from  "svelte/store";
 import {supabase} from "../lib/supabase.js";
 
 export const ModalOpen = writable(false);
-export const Algos = writable([]);
-export const Structs = writable([]);
+export const getResult = writable([]);
 
 /**
  * @param {any} Name
  */
-export function getInfo(){
-    //supabase get request
+export const getInfo = async () => {
+    const {data, error} = await supabase.from("AlgoStruc").select();
+    if (error) {
+        console.log(error);
+      }
+      getResult.set(data);
 }
 export function ModalInfo(Name){
     console.log(Name);
