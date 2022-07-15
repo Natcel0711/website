@@ -11,7 +11,7 @@
       <div class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
 
         {#each $getResult as struc }
-        <a href="#" on:click={() => {ModalInfo("Array")}} class="group">
+        <a href="#" on:click={() => {ModalInfo(struc.Name, struc.Description)}} class="group">
           <div class="w-full mt-10 aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
             <img src="src\images\DataStrucs\Array.png" alt={struc.Name} class="w-full h-full object-center object-cover group-hover:opacity-75">
           </div>

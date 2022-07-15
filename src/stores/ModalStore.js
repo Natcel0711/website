@@ -15,8 +15,10 @@ export const getInfo = async () => {
       getResult.set(data);
 }
 export function ModalInfo(Name, Description){
-    name: Name;
-    info: Description;
+    console.log(Name, Description);
+    name = Name;
+    info = Description
+    ModalOpen.set(true);
 }
 
 /**
