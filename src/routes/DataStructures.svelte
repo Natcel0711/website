@@ -1,6 +1,5 @@
 <script>
-    import {ModalInfo, getInfo, getResult} from "../stores/ModalStore";
-    getInfo();
+    import {ModalInfo, getResult} from "../stores/ModalStore";
 </script>
 <svelte:head>
     <title>Data Structures</title>
