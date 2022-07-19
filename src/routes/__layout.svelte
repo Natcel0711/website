@@ -6,6 +6,12 @@
 	import Modal from '../components/modal.svelte';
 	import { supabase } from '../lib/supabase.js';
 	console.log(supabase);
+	import { getInfo } from '../stores/ModalStore';
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		getInfo();
+	});
 </script>
 
 {#if $ModalOpen}

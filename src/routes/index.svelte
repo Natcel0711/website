@@ -1,12 +1,6 @@
 <script>
 	import Homecard from '../components/homecard.svelte';
 	import HomeAbout from '../components/homeabout.svelte';
-	import { getInfo } from '../stores/ModalStore';
-	import { onMount } from 'svelte';
-
-	onMount(async () => {
-		getInfo();
-	});
 </script>
 
 <svelte:head>
